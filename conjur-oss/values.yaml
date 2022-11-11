@@ -11,7 +11,7 @@
 account:
   # Name of Conjur account to be created. Maps to CONJUR_ACCOUNT env variable
   # for the Conjur container.
-  name: "default"
+  name: "myConjurAccount"
   # Set to 'true' to allow the Conjur server to automatically create an account
   # with the configured account.name.
   create: false
